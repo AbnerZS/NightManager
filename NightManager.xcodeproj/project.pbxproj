@@ -8,67 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		39998DC01E10E0F300D360D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DBF1E10E0F300D360D2 /* main.m */; };
-		39998DC31E10E0F300D360D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DC21E10E0F300D360D2 /* AppDelegate.m */; };
-		39998DC61E10E0F300D360D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DC51E10E0F300D360D2 /* ViewController.m */; };
-		39998DC91E10E0F300D360D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39998DC71E10E0F300D360D2 /* Main.storyboard */; };
 		39998DCB1E10E0F300D360D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39998DCA1E10E0F300D360D2 /* Assets.xcassets */; };
 		39998DCE1E10E0F300D360D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39998DCC1E10E0F300D360D2 /* LaunchScreen.storyboard */; };
-		39998DD91E10E0F300D360D2 /* NightManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DD81E10E0F300D360D2 /* NightManagerTests.m */; };
-		39998DE41E10E0F300D360D2 /* NightManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DE31E10E0F300D360D2 /* NightManagerUITests.m */; };
+		39998DF81E10E12200D360D2 /* BaseDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DF31E10E12200D360D2 /* BaseDelegate.m */; };
+		39998DF91E10E12200D360D2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DF51E10E12200D360D2 /* BaseNavigationController.m */; };
+		39998DFA1E10E12200D360D2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DF71E10E12200D360D2 /* BaseViewController.m */; };
+		39998DFE1E10E12900D360D2 /* UILabel+TextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DFD1E10E12900D360D2 /* UILabel+TextColor.m */; };
+		39998E061E10E14100D360D2 /* NightVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E031E10E14100D360D2 /* NightVersionManager.m */; };
+		39998E071E10E14100D360D2 /* NSObject+Night.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E051E10E14100D360D2 /* NSObject+Night.m */; };
+		39998E0A1E10E27100D360D2 /* UIButton+TitleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E091E10E27100D360D2 /* UIButton+TitleColor.m */; };
+		39998E0D1E10EF6400D360D2 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E0C1E10EF6400D360D2 /* BaseTabBarController.m */; };
+		39998E101E10F3DC00D360D2 /* UINavigationBar+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E0F1E10F3DC00D360D2 /* UINavigationBar+TintColor.m */; };
+		39998E131E10F5F100D360D2 /* UINavigationBar+BarTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E121E10F5F100D360D2 /* UINavigationBar+BarTintColor.m */; };
+		39998E191E10F74500D360D2 /* UIView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E181E10F74500D360D2 /* UIView+BackgroundColor.m */; };
+		39998E1C1E10F8E800D360D2 /* UITabBar+BarTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E1B1E10F8E800D360D2 /* UITabBar+BarTintColor.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		39998DD51E10E0F300D360D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39998DB31E10E0F300D360D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39998DBA1E10E0F300D360D2;
-			remoteInfo = NightManager;
-		};
-		39998DE01E10E0F300D360D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39998DB31E10E0F300D360D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39998DBA1E10E0F300D360D2;
-			remoteInfo = NightManager;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		39998DBB1E10E0F300D360D2 /* NightManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39998DBF1E10E0F300D360D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		39998DC11E10E0F300D360D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		39998DC21E10E0F300D360D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		39998DC41E10E0F300D360D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		39998DC51E10E0F300D360D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		39998DC81E10E0F300D360D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39998DCA1E10E0F300D360D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39998DCD1E10E0F300D360D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39998DCF1E10E0F300D360D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39998DD41E10E0F300D360D2 /* NightManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39998DD81E10E0F300D360D2 /* NightManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightManagerTests.m; sourceTree = "<group>"; };
-		39998DDA1E10E0F300D360D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39998DDF1E10E0F300D360D2 /* NightManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39998DE31E10E0F300D360D2 /* NightManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightManagerUITests.m; sourceTree = "<group>"; };
-		39998DE51E10E0F300D360D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39998DF21E10E12200D360D2 /* BaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDelegate.h; sourceTree = "<group>"; };
+		39998DF31E10E12200D360D2 /* BaseDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDelegate.m; sourceTree = "<group>"; };
+		39998DF41E10E12200D360D2 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		39998DF51E10E12200D360D2 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		39998DF61E10E12200D360D2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		39998DF71E10E12200D360D2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		39998DFC1E10E12900D360D2 /* UILabel+TextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TextColor.h"; sourceTree = "<group>"; };
+		39998DFD1E10E12900D360D2 /* UILabel+TextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TextColor.m"; sourceTree = "<group>"; };
+		39998E001E10E13300D360D2 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		39998E021E10E14100D360D2 /* NightVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightVersionManager.h; sourceTree = "<group>"; };
+		39998E031E10E14100D360D2 /* NightVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightVersionManager.m; sourceTree = "<group>"; };
+		39998E041E10E14100D360D2 /* NSObject+Night.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Night.h"; sourceTree = "<group>"; };
+		39998E051E10E14100D360D2 /* NSObject+Night.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Night.m"; sourceTree = "<group>"; };
+		39998E081E10E27100D360D2 /* UIButton+TitleColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TitleColor.h"; sourceTree = "<group>"; };
+		39998E091E10E27100D360D2 /* UIButton+TitleColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TitleColor.m"; sourceTree = "<group>"; };
+		39998E0B1E10EF6400D360D2 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		39998E0C1E10EF6400D360D2 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		39998E0E1E10F3DC00D360D2 /* UINavigationBar+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TintColor.h"; sourceTree = "<group>"; };
+		39998E0F1E10F3DC00D360D2 /* UINavigationBar+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TintColor.m"; sourceTree = "<group>"; };
+		39998E111E10F5F100D360D2 /* UINavigationBar+BarTintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BarTintColor.h"; sourceTree = "<group>"; };
+		39998E121E10F5F100D360D2 /* UINavigationBar+BarTintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BarTintColor.m"; sourceTree = "<group>"; };
+		39998E171E10F74500D360D2 /* UIView+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundColor.h"; sourceTree = "<group>"; };
+		39998E181E10F74500D360D2 /* UIView+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundColor.m"; sourceTree = "<group>"; };
+		39998E1A1E10F8E800D360D2 /* UITabBar+BarTintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+BarTintColor.h"; sourceTree = "<group>"; };
+		39998E1B1E10F8E800D360D2 /* UITabBar+BarTintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+BarTintColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		39998DB81E10E0F300D360D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39998DD11E10E0F300D360D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39998DDC1E10E0F300D360D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				39998DBD1E10E0F300D360D2 /* NightManager */,
-				39998DD71E10E0F300D360D2 /* NightManagerTests */,
-				39998DE21E10E0F300D360D2 /* NightManagerUITests */,
 				39998DBC1E10E0F300D360D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				39998DBB1E10E0F300D360D2 /* NightManager.app */,
-				39998DD41E10E0F300D360D2 /* NightManagerTests.xctest */,
-				39998DDF1E10E0F300D360D2 /* NightManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,11 +87,10 @@
 		39998DBD1E10E0F300D360D2 /* NightManager */ = {
 			isa = PBXGroup;
 			children = (
-				39998DC11E10E0F300D360D2 /* AppDelegate.h */,
-				39998DC21E10E0F300D360D2 /* AppDelegate.m */,
-				39998DC41E10E0F300D360D2 /* ViewController.h */,
-				39998DC51E10E0F300D360D2 /* ViewController.m */,
-				39998DC71E10E0F300D360D2 /* Main.storyboard */,
+				39998DF11E10E12200D360D2 /* BaseClass */,
+				39998DFB1E10E12900D360D2 /* Categories */,
+				39998DFF1E10E13300D360D2 /* Header */,
+				39998E011E10E14100D360D2 /* NightManager */,
 				39998DCA1E10E0F300D360D2 /* Assets.xcassets */,
 				39998DCC1E10E0F300D360D2 /* LaunchScreen.storyboard */,
 				39998DCF1E10E0F300D360D2 /* Info.plist */,
@@ -122,22 +107,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		39998DD71E10E0F300D360D2 /* NightManagerTests */ = {
+		39998DF11E10E12200D360D2 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				39998DD81E10E0F300D360D2 /* NightManagerTests.m */,
-				39998DDA1E10E0F300D360D2 /* Info.plist */,
+				39998DF21E10E12200D360D2 /* BaseDelegate.h */,
+				39998DF31E10E12200D360D2 /* BaseDelegate.m */,
+				39998E0B1E10EF6400D360D2 /* BaseTabBarController.h */,
+				39998E0C1E10EF6400D360D2 /* BaseTabBarController.m */,
+				39998DF41E10E12200D360D2 /* BaseNavigationController.h */,
+				39998DF51E10E12200D360D2 /* BaseNavigationController.m */,
+				39998DF61E10E12200D360D2 /* BaseViewController.h */,
+				39998DF71E10E12200D360D2 /* BaseViewController.m */,
 			);
-			path = NightManagerTests;
+			path = BaseClass;
 			sourceTree = "<group>";
 		};
-		39998DE21E10E0F300D360D2 /* NightManagerUITests */ = {
+		39998DFB1E10E12900D360D2 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				39998DE31E10E0F300D360D2 /* NightManagerUITests.m */,
-				39998DE51E10E0F300D360D2 /* Info.plist */,
+				39998DFC1E10E12900D360D2 /* UILabel+TextColor.h */,
+				39998DFD1E10E12900D360D2 /* UILabel+TextColor.m */,
+				39998E081E10E27100D360D2 /* UIButton+TitleColor.h */,
+				39998E091E10E27100D360D2 /* UIButton+TitleColor.m */,
+				39998E171E10F74500D360D2 /* UIView+BackgroundColor.h */,
+				39998E181E10F74500D360D2 /* UIView+BackgroundColor.m */,
+				39998E111E10F5F100D360D2 /* UINavigationBar+BarTintColor.h */,
+				39998E121E10F5F100D360D2 /* UINavigationBar+BarTintColor.m */,
+				39998E0E1E10F3DC00D360D2 /* UINavigationBar+TintColor.h */,
+				39998E0F1E10F3DC00D360D2 /* UINavigationBar+TintColor.m */,
+				39998E1A1E10F8E800D360D2 /* UITabBar+BarTintColor.h */,
+				39998E1B1E10F8E800D360D2 /* UITabBar+BarTintColor.m */,
 			);
-			path = NightManagerUITests;
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		39998DFF1E10E13300D360D2 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				39998E001E10E13300D360D2 /* Header.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		39998E011E10E14100D360D2 /* NightManager */ = {
+			isa = PBXGroup;
+			children = (
+				39998E021E10E14100D360D2 /* NightVersionManager.h */,
+				39998E031E10E14100D360D2 /* NightVersionManager.m */,
+				39998E041E10E14100D360D2 /* NSObject+Night.h */,
+				39998E051E10E14100D360D2 /* NSObject+Night.m */,
+			);
+			path = NightManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,42 +180,6 @@
 			productReference = 39998DBB1E10E0F300D360D2 /* NightManager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		39998DD31E10E0F300D360D2 /* NightManagerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39998DEB1E10E0F300D360D2 /* Build configuration list for PBXNativeTarget "NightManagerTests" */;
-			buildPhases = (
-				39998DD01E10E0F300D360D2 /* Sources */,
-				39998DD11E10E0F300D360D2 /* Frameworks */,
-				39998DD21E10E0F300D360D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				39998DD61E10E0F300D360D2 /* PBXTargetDependency */,
-			);
-			name = NightManagerTests;
-			productName = NightManagerTests;
-			productReference = 39998DD41E10E0F300D360D2 /* NightManagerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		39998DDE1E10E0F300D360D2 /* NightManagerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39998DEE1E10E0F300D360D2 /* Build configuration list for PBXNativeTarget "NightManagerUITests" */;
-			buildPhases = (
-				39998DDB1E10E0F300D360D2 /* Sources */,
-				39998DDC1E10E0F300D360D2 /* Frameworks */,
-				39998DDD1E10E0F300D360D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				39998DE11E10E0F300D360D2 /* PBXTargetDependency */,
-			);
-			name = NightManagerUITests;
-			productName = NightManagerUITests;
-			productReference = 39998DDF1E10E0F300D360D2 /* NightManagerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,18 +193,6 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 76RYFJEYR9;
 						ProvisioningStyle = Automatic;
-					};
-					39998DD31E10E0F300D360D2 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 76RYFJEYR9;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 39998DBA1E10E0F300D360D2;
-					};
-					39998DDE1E10E0F300D360D2 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 76RYFJEYR9;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 39998DBA1E10E0F300D360D2;
 					};
 				};
 			};
@@ -238,8 +210,6 @@
 			projectRoot = "";
 			targets = (
 				39998DBA1E10E0F300D360D2 /* NightManager */,
-				39998DD31E10E0F300D360D2 /* NightManagerTests */,
-				39998DDE1E10E0F300D360D2 /* NightManagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,21 +221,6 @@
 			files = (
 				39998DCE1E10E0F300D360D2 /* LaunchScreen.storyboard in Resources */,
 				39998DCB1E10E0F300D360D2 /* Assets.xcassets in Resources */,
-				39998DC91E10E0F300D360D2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39998DD21E10E0F300D360D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39998DDD1E10E0F300D360D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,52 +231,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39998DC61E10E0F300D360D2 /* ViewController.m in Sources */,
-				39998DC31E10E0F300D360D2 /* AppDelegate.m in Sources */,
+				39998DFE1E10E12900D360D2 /* UILabel+TextColor.m in Sources */,
 				39998DC01E10E0F300D360D2 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39998DD01E10E0F300D360D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39998DD91E10E0F300D360D2 /* NightManagerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39998DDB1E10E0F300D360D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39998DE41E10E0F300D360D2 /* NightManagerUITests.m in Sources */,
+				39998DFA1E10E12200D360D2 /* BaseViewController.m in Sources */,
+				39998E071E10E14100D360D2 /* NSObject+Night.m in Sources */,
+				39998E131E10F5F100D360D2 /* UINavigationBar+BarTintColor.m in Sources */,
+				39998E0D1E10EF6400D360D2 /* BaseTabBarController.m in Sources */,
+				39998DF81E10E12200D360D2 /* BaseDelegate.m in Sources */,
+				39998DF91E10E12200D360D2 /* BaseNavigationController.m in Sources */,
+				39998E0A1E10E27100D360D2 /* UIButton+TitleColor.m in Sources */,
+				39998E101E10F3DC00D360D2 /* UINavigationBar+TintColor.m in Sources */,
+				39998E191E10F74500D360D2 /* UIView+BackgroundColor.m in Sources */,
+				39998E1C1E10F8E800D360D2 /* UITabBar+BarTintColor.m in Sources */,
+				39998E061E10E14100D360D2 /* NightVersionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		39998DD61E10E0F300D360D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 39998DBA1E10E0F300D360D2 /* NightManager */;
-			targetProxy = 39998DD51E10E0F300D360D2 /* PBXContainerItemProxy */;
-		};
-		39998DE11E10E0F300D360D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 39998DBA1E10E0F300D360D2 /* NightManager */;
-			targetProxy = 39998DE01E10E0F300D360D2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		39998DC71E10E0F300D360D2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39998DC81E10E0F300D360D2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		39998DCC1E10E0F300D360D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -426,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 76RYFJEYR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Header/Header.h";
 				INFOPLIST_FILE = NightManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManager;
@@ -438,60 +367,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 76RYFJEYR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Header/Header.h";
 				INFOPLIST_FILE = NightManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		39998DEC1E10E0F300D360D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 76RYFJEYR9;
-				INFOPLIST_FILE = NightManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightManager.app/NightManager";
-			};
-			name = Debug;
-		};
-		39998DED1E10E0F300D360D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 76RYFJEYR9;
-				INFOPLIST_FILE = NightManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightManager.app/NightManager";
-			};
-			name = Release;
-		};
-		39998DEF1E10E0F300D360D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 76RYFJEYR9;
-				INFOPLIST_FILE = NightManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NightManager;
-			};
-			name = Debug;
-		};
-		39998DF01E10E0F300D360D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 76RYFJEYR9;
-				INFOPLIST_FILE = NightManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NightManager;
 			};
 			name = Release;
 		};
@@ -514,22 +394,7 @@
 				39998DEA1E10E0F300D360D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		39998DEB1E10E0F300D360D2 /* Build configuration list for PBXNativeTarget "NightManagerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39998DEC1E10E0F300D360D2 /* Debug */,
-				39998DED1E10E0F300D360D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		39998DEE1E10E0F300D360D2 /* Build configuration list for PBXNativeTarget "NightManagerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39998DEF1E10E0F300D360D2 /* Debug */,
-				39998DF01E10E0F300D360D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

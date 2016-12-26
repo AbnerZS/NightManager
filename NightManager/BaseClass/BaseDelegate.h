@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BaseDelegate.h
 //  NightManager
 //
 //  Created by abnerzhang on 2016/12/26.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface BaseDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-
