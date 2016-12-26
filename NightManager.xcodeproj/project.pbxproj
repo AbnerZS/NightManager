@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39998DC01E10E0F300D360D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DBF1E10E0F300D360D2 /* main.m */; };
+		39998DC31E10E0F300D360D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DC21E10E0F300D360D2 /* AppDelegate.m */; };
+		39998DC61E10E0F300D360D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DC51E10E0F300D360D2 /* ViewController.m */; };
+		39998DC91E10E0F300D360D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39998DC71E10E0F300D360D2 /* Main.storyboard */; };
+		39998DCB1E10E0F300D360D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39998DCA1E10E0F300D360D2 /* Assets.xcassets */; };
+		39998DCE1E10E0F300D360D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39998DCC1E10E0F300D360D2 /* LaunchScreen.storyboard */; };
+		39998DD91E10E0F300D360D2 /* NightManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DD81E10E0F300D360D2 /* NightManagerTests.m */; };
+		39998DE41E10E0F300D360D2 /* NightManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DE31E10E0F300D360D2 /* NightManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39998DD51E10E0F300D360D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39998DB31E10E0F300D360D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39998DBA1E10E0F300D360D2;
+			remoteInfo = NightManager;
+		};
+		39998DE01E10E0F300D360D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39998DB31E10E0F300D360D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39998DBA1E10E0F300D360D2;
+			remoteInfo = NightManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39998DBB1E10E0F300D360D2 /* NightManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39998DBF1E10E0F300D360D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39998DC11E10E0F300D360D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39998DC21E10E0F300D360D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39998DC41E10E0F300D360D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39998DC51E10E0F300D360D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39998DC81E10E0F300D360D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39998DCA1E10E0F300D360D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39998DCD1E10E0F300D360D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39998DCF1E10E0F300D360D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39998DD41E10E0F300D360D2 /* NightManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39998DD81E10E0F300D360D2 /* NightManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightManagerTests.m; sourceTree = "<group>"; };
+		39998DDA1E10E0F300D360D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39998DDF1E10E0F300D360D2 /* NightManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39998DE31E10E0F300D360D2 /* NightManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightManagerUITests.m; sourceTree = "<group>"; };
+		39998DE51E10E0F300D360D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39998DB81E10E0F300D360D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39998DD11E10E0F300D360D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39998DDC1E10E0F300D360D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39998DB21E10E0F300D360D2 = {
+			isa = PBXGroup;
+			children = (
+				39998DBD1E10E0F300D360D2 /* NightManager */,
+				39998DD71E10E0F300D360D2 /* NightManagerTests */,
+				39998DE21E10E0F300D360D2 /* NightManagerUITests */,
+				39998DBC1E10E0F300D360D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39998DBC1E10E0F300D360D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39998DBB1E10E0F300D360D2 /* NightManager.app */,
+				39998DD41E10E0F300D360D2 /* NightManagerTests.xctest */,
+				39998DDF1E10E0F300D360D2 /* NightManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39998DBD1E10E0F300D360D2 /* NightManager */ = {
+			isa = PBXGroup;
+			children = (
+				39998DC11E10E0F300D360D2 /* AppDelegate.h */,
+				39998DC21E10E0F300D360D2 /* AppDelegate.m */,
+				39998DC41E10E0F300D360D2 /* ViewController.h */,
+				39998DC51E10E0F300D360D2 /* ViewController.m */,
+				39998DC71E10E0F300D360D2 /* Main.storyboard */,
+				39998DCA1E10E0F300D360D2 /* Assets.xcassets */,
+				39998DCC1E10E0F300D360D2 /* LaunchScreen.storyboard */,
+				39998DCF1E10E0F300D360D2 /* Info.plist */,
+				39998DBE1E10E0F300D360D2 /* Supporting Files */,
+			);
+			path = NightManager;
+			sourceTree = "<group>";
+		};
+		39998DBE1E10E0F300D360D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39998DBF1E10E0F300D360D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39998DD71E10E0F300D360D2 /* NightManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				39998DD81E10E0F300D360D2 /* NightManagerTests.m */,
+				39998DDA1E10E0F300D360D2 /* Info.plist */,
+			);
+			path = NightManagerTests;
+			sourceTree = "<group>";
+		};
+		39998DE21E10E0F300D360D2 /* NightManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39998DE31E10E0F300D360D2 /* NightManagerUITests.m */,
+				39998DE51E10E0F300D360D2 /* Info.plist */,
+			);
+			path = NightManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39998DBA1E10E0F300D360D2 /* NightManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39998DE81E10E0F300D360D2 /* Build configuration list for PBXNativeTarget "NightManager" */;
+			buildPhases = (
+				39998DB71E10E0F300D360D2 /* Sources */,
+				39998DB81E10E0F300D360D2 /* Frameworks */,
+				39998DB91E10E0F300D360D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NightManager;
+			productName = NightManager;
+			productReference = 39998DBB1E10E0F300D360D2 /* NightManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39998DD31E10E0F300D360D2 /* NightManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39998DEB1E10E0F300D360D2 /* Build configuration list for PBXNativeTarget "NightManagerTests" */;
+			buildPhases = (
+				39998DD01E10E0F300D360D2 /* Sources */,
+				39998DD11E10E0F300D360D2 /* Frameworks */,
+				39998DD21E10E0F300D360D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39998DD61E10E0F300D360D2 /* PBXTargetDependency */,
+			);
+			name = NightManagerTests;
+			productName = NightManagerTests;
+			productReference = 39998DD41E10E0F300D360D2 /* NightManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39998DDE1E10E0F300D360D2 /* NightManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39998DEE1E10E0F300D360D2 /* Build configuration list for PBXNativeTarget "NightManagerUITests" */;
+			buildPhases = (
+				39998DDB1E10E0F300D360D2 /* Sources */,
+				39998DDC1E10E0F300D360D2 /* Frameworks */,
+				39998DDD1E10E0F300D360D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39998DE11E10E0F300D360D2 /* PBXTargetDependency */,
+			);
+			name = NightManagerUITests;
+			productName = NightManagerUITests;
+			productReference = 39998DDF1E10E0F300D360D2 /* NightManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39998DB31E10E0F300D360D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = abnerzhang;
+				TargetAttributes = {
+					39998DBA1E10E0F300D360D2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 76RYFJEYR9;
+						ProvisioningStyle = Automatic;
+					};
+					39998DD31E10E0F300D360D2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 76RYFJEYR9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39998DBA1E10E0F300D360D2;
+					};
+					39998DDE1E10E0F300D360D2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 76RYFJEYR9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39998DBA1E10E0F300D360D2;
+					};
+				};
+			};
+			buildConfigurationList = 39998DB61E10E0F300D360D2 /* Build configuration list for PBXProject "NightManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39998DB21E10E0F300D360D2;
+			productRefGroup = 39998DBC1E10E0F300D360D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39998DBA1E10E0F300D360D2 /* NightManager */,
+				39998DD31E10E0F300D360D2 /* NightManagerTests */,
+				39998DDE1E10E0F300D360D2 /* NightManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39998DB91E10E0F300D360D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39998DCE1E10E0F300D360D2 /* LaunchScreen.storyboard in Resources */,
+				39998DCB1E10E0F300D360D2 /* Assets.xcassets in Resources */,
+				39998DC91E10E0F300D360D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39998DD21E10E0F300D360D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39998DDD1E10E0F300D360D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39998DB71E10E0F300D360D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39998DC61E10E0F300D360D2 /* ViewController.m in Sources */,
+				39998DC31E10E0F300D360D2 /* AppDelegate.m in Sources */,
+				39998DC01E10E0F300D360D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39998DD01E10E0F300D360D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39998DD91E10E0F300D360D2 /* NightManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39998DDB1E10E0F300D360D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39998DE41E10E0F300D360D2 /* NightManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39998DD61E10E0F300D360D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39998DBA1E10E0F300D360D2 /* NightManager */;
+			targetProxy = 39998DD51E10E0F300D360D2 /* PBXContainerItemProxy */;
+		};
+		39998DE11E10E0F300D360D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39998DBA1E10E0F300D360D2 /* NightManager */;
+			targetProxy = 39998DE01E10E0F300D360D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39998DC71E10E0F300D360D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39998DC81E10E0F300D360D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39998DCC1E10E0F300D360D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39998DCD1E10E0F300D360D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39998DE61E10E0F300D360D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39998DE71E10E0F300D360D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39998DE91E10E0F300D360D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76RYFJEYR9;
+				INFOPLIST_FILE = NightManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39998DEA1E10E0F300D360D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76RYFJEYR9;
+				INFOPLIST_FILE = NightManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39998DEC1E10E0F300D360D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 76RYFJEYR9;
+				INFOPLIST_FILE = NightManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightManager.app/NightManager";
+			};
+			name = Debug;
+		};
+		39998DED1E10E0F300D360D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 76RYFJEYR9;
+				INFOPLIST_FILE = NightManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightManager.app/NightManager";
+			};
+			name = Release;
+		};
+		39998DEF1E10E0F300D360D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 76RYFJEYR9;
+				INFOPLIST_FILE = NightManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NightManager;
+			};
+			name = Debug;
+		};
+		39998DF01E10E0F300D360D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 76RYFJEYR9;
+				INFOPLIST_FILE = NightManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.abner.NightManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NightManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39998DB61E10E0F300D360D2 /* Build configuration list for PBXProject "NightManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39998DE61E10E0F300D360D2 /* Debug */,
+				39998DE71E10E0F300D360D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39998DE81E10E0F300D360D2 /* Build configuration list for PBXNativeTarget "NightManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39998DE91E10E0F300D360D2 /* Debug */,
+				39998DEA1E10E0F300D360D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39998DEB1E10E0F300D360D2 /* Build configuration list for PBXNativeTarget "NightManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39998DEC1E10E0F300D360D2 /* Debug */,
+				39998DED1E10E0F300D360D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39998DEE1E10E0F300D360D2 /* Build configuration list for PBXNativeTarget "NightManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39998DEF1E10E0F300D360D2 /* Debug */,
+				39998DF01E10E0F300D360D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39998DB31E10E0F300D360D2 /* Project object */;
+}
