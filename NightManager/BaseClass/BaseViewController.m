@@ -9,10 +9,13 @@
 #import "BaseViewController.h"
 #import "UIButton+TitleColor.h"
 
-@interface BaseViewController ()
+static NSString *const cellIdentifier = @"cellIdentifier";
+
+@interface BaseViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UILabel *changeLabel;
 @property (nonatomic, strong) UIButton *changeBtn;
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
 
@@ -23,8 +26,9 @@
     self.navigationController.navigationBar.translucent = NO;
     [self.view addSubview:self.changeLabel];
     [self.view addSubview:self.changeBtn];
-    
+    [self.view addSubview:self.tableView];
     __weak typeof(&*self)weakSelf = self;
+    // 对UILabel的字体颜色和背景颜色的设置
     [self addColorChangedBlock:^{
         weakSelf.changeLabel.normalTextColor = [UIColor blackColor];
         weakSelf.changeLabel.nightTextColor = [UIColor cyanColor];
@@ -32,17 +36,22 @@
         weakSelf.changeLabel.nightBackgroundColor = [UIColor whiteColor];
         
     }];
-    
+    // 对UIButton的字体颜色和背景颜色的设置
     [self addColorChangedBlock:^{
         [weakSelf.changeBtn setNormalTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [weakSelf.changeBtn setNightTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
         weakSelf.changeBtn.normalBackgroundColor = [UIColor redColor];
         weakSelf.changeBtn.nightBackgroundColor = [UIColor whiteColor];
     }];
-    
+    // 对UIView的backgroundColor的设置
     [self addColorChangedBlock:^{
         weakSelf.view.normalBackgroundColor = [UIColor whiteColor];
         weakSelf.view.nightBackgroundColor = [UIColor grayColor];
+    }];
+    // 对UITableView的backgroundColor的设置
+    [self addColorChangedBlock:^{
+        weakSelf.tableView.normalBackgroundColor = [UIColor lightGrayColor];
+        weakSelf.tableView.nightBackgroundColor = [UIColor grayColor];
     }];
         
     
@@ -86,6 +95,34 @@
     }
     return _changeBtn;
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 20.0f;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    cell.textLabel.text = [NSString stringWithFormat:@"这是第%zi行", indexPath.row];
+    [self addColorChangedBlock:^{
+        cell.textLabel.normalTextColor = [UIColor blackColor];
+        cell.textLabel.nightTextColor = [UIColor blueColor];
+
+    }];
+    cell.normalBackgroundColor = [UIColor clearColor];
+    return cell;
+}
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 100, 200, 300) style:UITableViewStylePlain];
+        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellIdentifier];
+        _tableView.dataSource = self;
+        _tableView.delegate = self;
+    }
+    return _tableView;
+}
+
+
 
 
 /*

@@ -28,11 +28,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     __weak typeof(&*self)weakSelf = self;
+    // 对NavigationBar颜色的设置
     [self addColorChangedBlock:^{
         weakSelf.navigationBar.nightBarTintColor = [UIColor blackColor];
         weakSelf.navigationBar.normalBarTintColor = kThemeColor;
+    }];
+    // 对NavigationBar上文字颜色的设置
+    [self addColorChangedBlock:^{
         weakSelf.navigationBar.normalTintColor = [UIColor blackColor];
         weakSelf.navigationBar.nightTintColor = [UIColor whiteColor];
+
     }];
 
     // Do any additional setup after loading the view.

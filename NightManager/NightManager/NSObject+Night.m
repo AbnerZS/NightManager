@@ -7,7 +7,6 @@
 //
 
 #import "NSObject+Night.h"
-#import <objc/runtime.h>
 
 @interface NSObject ()
 

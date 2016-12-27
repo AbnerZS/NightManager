@@ -7,7 +7,6 @@
 //
 
 #import "UILabel+TextColor.h"
-#import <objc/runtime.h>
 
 @implementation UILabel (TextColor)
 

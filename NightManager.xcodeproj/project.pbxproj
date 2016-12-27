@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39472A451E1203FB00231FDD /* UIImageView+ImageName.m in Sources */ = {isa = PBXBuildFile; fileRef = 39472A441E1203FB00231FDD /* UIImageView+ImageName.m */; };
 		39998DC01E10E0F300D360D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998DBF1E10E0F300D360D2 /* main.m */; };
 		39998DCB1E10E0F300D360D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39998DCA1E10E0F300D360D2 /* Assets.xcassets */; };
 		39998DCE1E10E0F300D360D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39998DCC1E10E0F300D360D2 /* LaunchScreen.storyboard */; };
@@ -22,9 +23,12 @@
 		39998E131E10F5F100D360D2 /* UINavigationBar+BarTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E121E10F5F100D360D2 /* UINavigationBar+BarTintColor.m */; };
 		39998E191E10F74500D360D2 /* UIView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E181E10F74500D360D2 /* UIView+BackgroundColor.m */; };
 		39998E1C1E10F8E800D360D2 /* UITabBar+BarTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E1B1E10F8E800D360D2 /* UITabBar+BarTintColor.m */; };
+		39998E1F1E11265000D360D2 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39998E1E1E11265000D360D2 /* MeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39472A431E1203FB00231FDD /* UIImageView+ImageName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageName.h"; sourceTree = "<group>"; };
+		39472A441E1203FB00231FDD /* UIImageView+ImageName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageName.m"; sourceTree = "<group>"; };
 		39998DBB1E10E0F300D360D2 /* NightManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39998DBF1E10E0F300D360D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		39998DCA1E10E0F300D360D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		39998E181E10F74500D360D2 /* UIView+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundColor.m"; sourceTree = "<group>"; };
 		39998E1A1E10F8E800D360D2 /* UITabBar+BarTintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+BarTintColor.h"; sourceTree = "<group>"; };
 		39998E1B1E10F8E800D360D2 /* UITabBar+BarTintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+BarTintColor.m"; sourceTree = "<group>"; };
+		39998E1D1E11265000D360D2 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		39998E1E1E11265000D360D2 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,8 @@
 				39998DF51E10E12200D360D2 /* BaseNavigationController.m */,
 				39998DF61E10E12200D360D2 /* BaseViewController.h */,
 				39998DF71E10E12200D360D2 /* BaseViewController.m */,
+				39998E1D1E11265000D360D2 /* MeViewController.h */,
+				39998E1E1E11265000D360D2 /* MeViewController.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -129,6 +137,8 @@
 				39998DFD1E10E12900D360D2 /* UILabel+TextColor.m */,
 				39998E081E10E27100D360D2 /* UIButton+TitleColor.h */,
 				39998E091E10E27100D360D2 /* UIButton+TitleColor.m */,
+				39472A431E1203FB00231FDD /* UIImageView+ImageName.h */,
+				39472A441E1203FB00231FDD /* UIImageView+ImageName.m */,
 				39998E171E10F74500D360D2 /* UIView+BackgroundColor.h */,
 				39998E181E10F74500D360D2 /* UIView+BackgroundColor.m */,
 				39998E111E10F5F100D360D2 /* UINavigationBar+BarTintColor.h */,
@@ -231,8 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39472A451E1203FB00231FDD /* UIImageView+ImageName.m in Sources */,
 				39998DFE1E10E12900D360D2 /* UILabel+TextColor.m in Sources */,
 				39998DC01E10E0F300D360D2 /* main.m in Sources */,
+				39998E1F1E11265000D360D2 /* MeViewController.m in Sources */,
 				39998DFA1E10E12200D360D2 /* BaseViewController.m in Sources */,
 				39998E071E10E14100D360D2 /* NSObject+Night.m in Sources */,
 				39998E131E10F5F100D360D2 /* UINavigationBar+BarTintColor.m in Sources */,

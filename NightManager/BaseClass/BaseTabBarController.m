@@ -9,6 +9,7 @@
 #import "BaseTabBarController.h"
 #import "BaseNavigationController.h"
 #import "BaseViewController.h"
+#import "MeViewController.h"
 
 @interface BaseTabBarController ()
 
@@ -29,7 +30,7 @@
     BaseNavigationController *baseNC = [[BaseNavigationController alloc] initWithRootViewController:baseVC];
     baseNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"首页" image:[UIImage imageNamed:@"tab_news"] selectedImage:nil];
     
-    UIViewController *VC = [[UIViewController alloc] init];
+    MeViewController *VC = [[MeViewController alloc] init];
     BaseNavigationController *NC = [[BaseNavigationController alloc] initWithRootViewController:VC];
     NC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"我的" image:[UIImage imageNamed:@"tab_me"] selectedImage:nil];
     
@@ -37,6 +38,7 @@
     self.tabBar.tintColor = kThemeColor;
     
     __weak typeof(&*self)weakSelf = self;
+    // 对tabBar颜色的设置
     [self addColorChangedBlock:^{
         weakSelf.tabBar.nightBarTintColor = [UIColor blackColor];
         weakSelf.tabBar.normalBarTintColor = [UIColor whiteColor];
